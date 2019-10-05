@@ -67,7 +67,7 @@ public class LinkedList<E extends Comparable<E>>
      * @return jei k yra blogas, grąžina null
      */
     @Override
-    public boolean add(int k, E e) {
+    public boolean add(int k, E e) {            --------------------------------------------|-----------------------|
         if (e == null) {
             return false;
         }
@@ -101,7 +101,7 @@ public class LinkedList<E extends Comparable<E>>
      * Prideda į sąrašo pabaigą naują elementą
      * @param e Knygos duomenys
      */
-     public void addLast(E e)
+     public void addLast(E e)                           --------------------------------------------|-----------------------|
      {
          if (first == null) {
              first = new Node<E>(e, null);
@@ -167,7 +167,7 @@ public class LinkedList<E extends Comparable<E>>
      * @return senoji reikšmė
      */
     @Override
-    public E set(int k, E e) {
+    public E set(int k, E e) {            --------------------------------------------|-----------------------|
         if (k >= size || k < 0) {
             return null;
         }
@@ -206,7 +206,7 @@ public class LinkedList<E extends Comparable<E>>
      * @return pašalintas elementas
      */
     @Override
-    public E remove(int k) {
+    public E remove(int k) {                   --------------------------------------------|-----------------------|
         if (size == 0) {
             return null;
         }
@@ -278,7 +278,7 @@ public class LinkedList<E extends Comparable<E>>
      * @param o Object lyginamas su šiuo sąrašu
      * @return 
      */
-    public boolean equals(Object o)
+    public boolean equals(Object o)                   --------------------------------------------|-----------------------|
     {
         if (!(o instanceof BookList)) {
             return false;
@@ -302,7 +302,7 @@ public class LinkedList<E extends Comparable<E>>
      * neradimo atveju - 1
      * @return 
      */
-    public int lastIndexOf(Object o)
+    public int lastIndexOf(Object o)            --------------------------------------------|-----------------------|
     {
         E el = (E)o;
         current = first;
@@ -318,7 +318,7 @@ public class LinkedList<E extends Comparable<E>>
         else
             return lastIndex;
     }
-    public int indexOf(Object o)
+    public int indexOf(Object o)            --------------------------------------------|-----------------------|
     {
         E el = (E)o;
         current = first;
