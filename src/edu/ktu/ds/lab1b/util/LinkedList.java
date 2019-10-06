@@ -9,7 +9,7 @@
  * yra aptarti paslaitos metu. Realizuokite nurodytus metodus.
  * ****************************************************************************
  */
-package edu.ktu.ds.lab1b.util;
+package edu.ktu.ds.lab1b.util;    //--------------------------------------------|-----------------------| -Sudaryti metodai
 
 import edu.ktu.ds.lab1b.Bendoraitis.Book;
 import edu.ktu.ds.lab1b.Bendoraitis.BookList;
